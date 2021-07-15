@@ -1,0 +1,127 @@
+body{
+    
+    background: url('images/bg1.jpg') ; 
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: 1280px 600px;
+    margin:  auto;
+    height: 1550px;
+    background-color: azure;
+    height: fit-content;
+}
+.header{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    margin-top: 2px;
+    text-shadow:1px 1px 4px grey;
+}
+li a{
+    margin-left: 35px;
+    text-decoration: none;
+    
+    color: azure;
+    font-family: 'STIX Two Math', serif;
+
+}
+a:hover{
+    color: rgb(155, 152, 152);
+} 
+input{
+    border-color: rgb(39, 17, 46);
+    background-color: rgb(39, 17, 46);
+    border-radius:15px;
+    width: 220px;
+    height: 20px;
+    margin-top: -2px;
+    padding: 7px;
+    color: white;
+    
+}
+p{
+    color: whitesmoke;
+    margin-left: 150px;
+    margin-top: -1px;
+    font-size: 23px;
+    
+
+}
+.box{
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    height: fit-content;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 220px;  
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    
+}
+.box h4{
+    text-align: center;
+    font-size: 18px;
+}
+.box p{
+    margin-left: 0px;
+    color: black;
+    font-size: 18px;
+}
+.ayur{
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 30px; 
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(224, 230, 230);
+    margin-top: 50px;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.intro p{
+    color: blue;
+    width: 450px;
+    margin-top: 120px;
+    margin-left: 590px;
+    word-spacing: px;
+    text-align: justify;
+    position: absolute;
+}
+.intro h5{
+    margin-left: 62px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+.footer{
+    margin-bottom: 0px;
+    margin-top: 120px;
+    color: grey;
+    
+    
+}
+.footer div{
+    padding: 10px;
+    
+}
+h4 a{
+    color: rgb(3, 156, 3);
+    text-shadow:1px 1px 4px rgb(187, 184, 184);
+}
